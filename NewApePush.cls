@@ -4,5 +4,6 @@ public with sharing class NewApePush {
         acc.Name='New Account';
         insert acc;
         system.debug(acc);
+        system.debug('Hello');
     }
 }
